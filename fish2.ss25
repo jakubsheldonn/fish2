@@ -44,7 +44,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             document.referrer.includes("android-app://");
                           dataLayer.push({
                               'sub_platform': isInStandaloneMode() ? "PC PWA" : "PC Browser"
-                          });
+                          });pt>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-KP3QJKHW');</script>
+      <!-- End Google Tag Manager -->
+    <!-- captcha -->
+    <script src="https://static.geetest.com/static/js/gt.0.4.9.js"></script>
+  <script defer src="/js/chunk-vendors.js"></script><script defer src="/js/app.js"></script></head>
+  <body>
+    <noscript>
+      <strong>We're sorry but Humanity Protocol doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
                         } catch (err) {
                           dataLayer.push({
                             'sub_platform': "PC Browser"
